@@ -69,7 +69,7 @@ p span{
 	width: 34%;
 	position: absolute;
 	left: 0;
-	top: 500px;
+	top: -900px;
 	opacity: 0;
 }
 
@@ -327,7 +327,7 @@ RESOLUCIONES MENORES A 700px
 		background-color: black;
 	}
 	.lannister .leon{
-		transform: translateY(500px) rotate(360deg);
+		transform: translateY(800px) rotate(360deg);
 	}
 	.lannister .houseName{
 		transform: translateY(-1000px) rotate(360deg);	
@@ -364,6 +364,9 @@ RESOLUCIONES MENORES A 500px
 @media screen and (max-width: 500px){
 	.contenedor{
 		background-color: #626262;
+	}
+	.lannister .leon{
+		transform: translateY(700px);
 	}
 	.targaryen .dragon{
 		transform: scale(7) rotate(720deg);
